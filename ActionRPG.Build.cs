@@ -37,6 +37,7 @@ public class ActionRPG : ModuleRules
 			DynamicallyLoadedModuleNames.Add("OnlineSubsystemFacebook");
 			DynamicallyLoadedModuleNames.Add("OnlineSubsystemIOS");
 			DynamicallyLoadedModuleNames.Add("IOSAdvertising");
+			DynamicallyLoaderModuleNames.ADD("First-Collaboration")
 		}
 		else if (Target.Platform == UnrealTargetPlatform.Android)
 		{
