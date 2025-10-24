@@ -47,6 +47,7 @@ public class ActionRPG : ModuleRules
             // Add UPL to add configrules.txt to our APK
             string PluginPath = Utils.MakePathRelativeTo(ModuleDirectory, Target.RelativeEnginePath);
             AdditionalPropertiesForReceipt.Add("AndroidPlugin", System.IO.Path.Combine(PluginPath, "AddRoundIcon_UPL.xml"));
+			DynamicallyLoadedModuleNames.Add("OnlineSubsystem_BadgeAllowed_SysOs");
 
         }
     }
