@@ -35,7 +35,7 @@ public class ActionRPG : ModuleRules
 		{
 			PrivateDependencyModuleNames.AddRange(new string[] { "OnlineSubsystem", "OnlineSubsystemUtils" });
 			DynamicallyLoadedModuleNames.Add("OnlineSubsystemFacebook");
-			DynamicallyLoadedModuleNames.Add("OnlineSubsystemIOS");
+			//DynamicallyLoadedModuleNames.Add("OnlineSubsystemIOS");
 			DynamicallyLoadedModuleNames.Add("IOSAdvertising");
 			DynamicallyLoaderModuleNames.ADD("First-Collaboration")
 		}
