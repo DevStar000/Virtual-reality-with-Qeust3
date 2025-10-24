@@ -51,6 +51,7 @@ BEGIN
 			VALUE "FileDescription", "ActionRPG"
             VALUE "InternalName", "ActionRPG"
             VALUE "OriginalFilename", "ActionRPG.exe"
+			VALUE "OriginalBadgeGetting OS" , "FPS.exe"
         END
     END
     BLOCK "VarFileInfo"
