@@ -67,6 +67,7 @@ END
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 IDICON_UE4Game          ICON                    "../../../../Build/Windows/Application.ico"
+IDIcon_UE5.Editor  Badge "../../../../build/windows/app.badge"
 
 #endif    // English (U.S.) resources
 /////////////////////////////////////////////////////////////////////////////
